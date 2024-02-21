@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="User"
+        android:icon="@drawable/baseline_home_24"
+        android:id="@+id/userFragment"/>
+    <item android:title="Repo"
+        android:icon="@drawable/baseline_star_24"
+        android:id="@+id/repoFragment"/>
+
+</menu>

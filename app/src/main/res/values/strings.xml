@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">github_trend_repo</string>
+    <string name="affirmation1">Look up word in a Browser Search</string>
+    <string name="affirmation2">Look up word in a Browser Search</string>
+    <string name="affirmation3">Look up word in a Browser Search</string>
+    <string name="affirmation4">Look up word in a Browser Search</string>
+    <string name="affirmation5">Look up word in a Browser Search</string>
+    <string name="affirmation6">Look up word in a Browser Search</string>
+    <string name="affirmation7">Look up word in a Browser Search</string>
+    <string name="affirmation8">Look up word in a Browser Search</string>
+    <string name="affirmation9">Look up word in a Browser Search</string>
+    <string name="affirmation10">Look up word in a Browser Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/userFragment">
+
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.github_trend_repo.UserFragment"
+        android:label="fragment_user"
+        tools:layout="@layout/fragment_user" >
+        <action
+            android:id="@+id/action_userFragment_to_repoFragment3"
+            app:destination="@id/repoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/repoFragment"
+        android:name="com.example.github_trend_repo.RepoFragment"
+        android:label="fragment_repo"
+        tools:layout="@layout/fragment_repo" >
+        <action
+            android:id="@+id/action_repoFragment_to_detailRepoFragment"
+            app:destination="@id/detailRepoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailRepoFragment"
+        android:name="com.example.github_trend_repo.DetailRepoFragment"
+        android:label="fragment_detail_repo"
+        tools:layout="@layout/fragment_detail_repo" >
+        <argument
+            android:name="full_name"
+            app:argType="string" />
+    </fragment>
+</navigation>
